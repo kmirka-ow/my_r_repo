@@ -4,3 +4,6 @@ y = x + rnorm(100, 0, 2)
 fit = lm(y~x)
 
 summary(fit)
+
+plot(x, y)
+abline(fit, col = 2)
